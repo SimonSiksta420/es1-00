@@ -17,7 +17,7 @@ services:
       - ./wordpress:/var/www/html
 
   db:
-    image: mysql:latest
+    image: mysql
     environment:
       MYSQL_DATABASE: exampledb
       MYSQL_USER: exampleuser
