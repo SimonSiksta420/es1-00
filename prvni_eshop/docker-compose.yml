@@ -18,6 +18,7 @@ services:
 
   db:
     image: mysql
+    ports:
     environment:
       MYSQL_DATABASE: exampledb
       MYSQL_USER: exampleuser
